@@ -12,7 +12,6 @@ def excuse (a,b,c):
     y = random.randint(0,len(b)-1)
     z = random.randint(0,len(c)-1)
 
-    print(x,y,z)
     return a[x]+" "+b[y] + " "+c[z]
 
 print(excuse(who,what,when))
